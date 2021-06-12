@@ -1,0 +1,91 @@
+<html><head>
+<title>Miro' • Token Generator</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Miro • Token Generator">
+<link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/834777207925768233/852826616409227274/emoji.png">
+<meta property="og:description" content="Discord Token Generator">
+<meta property="og:image" content="https://discordapp.com/assets/ae85f3ba482693c99192d68b402b691c.svg">
+<meta property="og:url" content="https://github.com/Miro-Os/TokenDiscordGen">
+<body>
+<style>
+  textarea {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #B6B6B6;
+    padding: 8px;
+    font-family: courier new;
+}
+
+body {
+    background-color: #000;
+}
+
+input {
+    background-color: #030000;
+    color: #ffffff;
+}
+
+button {
+	background-color:#000000;
+	cursor:pointer;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 8px;
+	text-decoration:none;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+</style>
+<div>
+<h1 style="font-family: Arial; color: #c70202">Miro' Token Generator V.1</h1>
+<textarea id="a" rows="11" cols="100" readonly="" style="resize: none;">Miro
+  
+―――――――――――――――――――――――――――――――――――――――
+Miro' Token Generator V.1
+We are here
+All Tokens Will Not Work Aleatory.
+―――――――――――――――――――――――――――――――――――――――
+
+</textarea>
+<style>
+.button {
+  background: linear-gradient(135deg, #F53C14 24%, #C12706 50%, #C10606 79%, #F33333 100%);
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+</style>
+
+<p></p>
+<p></p>
+<p style="font-family: Arial; color: #c70202">Number of tokens to generate (In 1 second)</p>
+<input type="text" id="speed" value="5">
+<p></p>
+<button id="generate" class="button">
+  Start!
+</button>
+
+<button id="stop" class="button">
+  Stop!
+</button>
+    
+<button onclick="stop(); document.getElementById('a').value = 'Miro\n\n―――――――――――――――――――――――――――――――――――――――\nMiro Token Generator V.1\nAll tokens are working.\n―――――――――――――――――――――――――――――――――――――――\n\n'; document.getElementById('b').value = '';" class="button" id="clear">Clear Tokens</button>
+<textarea style="display: none;" id="b" rows="11" cols="100" readonly=""></textarea>
+	<script src="main.js"></script>
+</div>
+	<p></p>
+
+
+</body></html>
